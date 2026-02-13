@@ -21,8 +21,6 @@ Los recursos de software empleados son los siguientes:
 	- Spring MySQL-Connector (8.0.30): Necesitamos un motor de base de datos para guardar las tareas y sus atributos asociados. Este conector funciona como enlace entre el
 	motor MySQL y JAVA.
 	- OpenApi Docs/Swagger UI (3.0.0): Para tener una interfaz personalizable y visualmente agradable a la hora de hacer consultas a la API.
-		
-Todo el código desarrollado, la imágen de Docker generada y el jar del proyecto JAVA estarán subidos a GitHub.
 	
 Para la exportación de la API se ha integrado todo en contenedores Docker para una mayor portabilidad y facilidad a la hora de desplegarlo.
 El despliegue consta de un contenedor tareas_mysql que funciona como base de datos y un contenedor tareas_api que contiene la API. 
