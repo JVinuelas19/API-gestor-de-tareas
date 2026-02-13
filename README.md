@@ -27,7 +27,7 @@ Todo el código desarrollado, la imágen de Docker generada y el jar del proyect
 Para la exportación de la API se ha integrado todo en contenedores Docker para una mayor portabilidad y facilidad a la hora de desplegarlo.
 El despliegue consta de un contenedor tareas_mysql que funciona como base de datos y un contenedor tareas_api que contiene la API. 
 
-Para el despliegue de la API es necesario seguir los siguientes pasos:
+Para el despliegue de la API es necesario seguir los siguientes pasos:  
 1 - Descargar un motor de Docker (recomiendo la versión "Docker Personal" de Docker-Desktop: https://www.docker.com/pricing/) y arrancarlo  
 2 - Clonar el repositorio de Github de este proyecto con el comando "git clone https://github.com/JVinuelas19/API-gestor-de-tareas.git"  
 3 - Una vez clonado, situarnos con la CLI sobre la carpeta de proyecto y ejecutar el comando "mvn clean package", generando el .jar necesario.  
