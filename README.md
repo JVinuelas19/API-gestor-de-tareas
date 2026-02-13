@@ -28,11 +28,11 @@ Para la exportación de la API se ha integrado todo en contenedores Docker para 
 El despliegue consta de un contenedor tareas_mysql que funciona como base de datos y un contenedor tareas_api que contiene la API. 
 
 Para el despliegue de la API es necesario seguir los siguientes pasos:
-1 - Descargar un motor de Docker (recomiendo la versión "Docker Personal" de Docker-Desktop: https://www.docker.com/pricing/) y arrancarlo
-2 - Clonar el repositorio de Github de este proyecto con el comando "git clone https://github.com/JVinuelas19/API-gestor-de-tareas.git"
-3 - Una vez clonado, situarnos con la CLI sobre la carpeta de proyecto y ejecutar el comando "mvn clean package", generando el .jar necesario.
-4 - Verificamos que el paso anterior genera un archivo .jar dentro de la carpeta target y ejecutamos el comando "docker compose up". Esto crea los contenedores necesarios para la API.
-5 - Una vez levantados los contenedores, acceder a la API desde un navegador introduciendo el siguiente path: "http://localhost:8080/swagger-ui/index.html"
+1 - Descargar un motor de Docker (recomiendo la versión "Docker Personal" de Docker-Desktop: https://www.docker.com/pricing/) y arrancarlo \n
+2 - Clonar el repositorio de Github de este proyecto con el comando "git clone https://github.com/JVinuelas19/API-gestor-de-tareas.git" \n
+3 - Una vez clonado, situarnos con la CLI sobre la carpeta de proyecto y ejecutar el comando "mvn clean package", generando el .jar necesario. \n
+4 - Verificamos que el paso anterior genera un archivo .jar dentro de la carpeta target y ejecutamos el comando "docker compose up". Esto crea los contenedores necesarios para la API. \n
+5 - Una vez levantados los contenedores, acceder a la API desde un navegador introduciendo el siguiente path: "http://localhost:8080/swagger-ui/index.html" \n
 6 - Testear la API creando, modificando, listando y borrando tareas.
 
 Trabajo futuro y posibles mejoras:
